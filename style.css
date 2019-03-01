@@ -85,6 +85,7 @@ To safely make customizations to the theme:
 	# Responsiveness
 		## LP Responsiveness
 	# Print styles
+	# Who we are page
 
 
 /*--------------------------------------------------------------
@@ -1708,13 +1709,13 @@ article.hentry,
 	display: block;
 	position: relative;
 	overflow: hidden;
-	margin-bottom: 2em;
+	margin-bottom: 0em;
 }
 
 article.hentry .article-inner {
 	display: block;
 	overflow: hidden;
-	padding: 2em;
+
 }
 
 #content-masonry article.hentry {
@@ -5195,6 +5196,9 @@ a.continue-reading-link:hover span:after {
 		margin-left: 1%;
 		margin-right: 1%;
 	}
+	.figure>.img{
+		width:10px;
+	}
 
 }
 
@@ -5710,6 +5714,7 @@ body.mobile .main {min-height:0;}
 	body.admin-bar nav#mobile-menu {
 		top: 32px;
 	}
+	
 }
 
 @media (max-width: 640px) {
@@ -6097,6 +6102,33 @@ body.mobile .main {min-height:0;}
 		background: #FFF;
 		color: #000;
 	}
+
+}
+
+/*--------------------------------------------------------------
+	# Who we are Page
+-------------------------------------------------------------- */
+
+div.icon>figure>img{
+		width:70px;
+		height: 70px;
+	}
+section#comments{
+	display: none;
+}
+div.text-area-3>p{
+	margin-bottom: 0px;
+}
+@media (max-width: 768px) {
+	margin-right:50px;
+	margin-left:50px;
+
+}
+
+div.icon>figure>p{
+	width:15em;
+	padding-right: 1em;
+	padding-left: 1em;
 
 }
 
