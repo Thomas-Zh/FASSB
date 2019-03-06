@@ -2413,7 +2413,7 @@ body .main .wp-caption > a {
 .lp-staticslider .staticslider-caption-text,
 .seriousslider.seriousslider-theme .seriousslider-caption-text {
 	position: relative;
-	font-size: 4.2em;
+	font-size: 5em;
 	line-height: 1.5;
 	opacity: 0;
 	color: #FFF;
@@ -5929,20 +5929,72 @@ body.mobile .main {min-height:0;}
 	}
 
 }*/
+@media (max-width: 1700px) {
+	.lp-staticslider .staticslider-caption-text,
+	.seriousslider.seriousslider-theme .seriousslider-caption-text {
+		font-size: 4em;
+	}
+}
+@media (max-width: 1420px) {
+	.lp-staticslider .staticslider-caption-text,
+	.seriousslider.seriousslider-theme .seriousslider-caption-text {
+		font-size: 3.2em;
+	}
+}
+@media (max-width: 1140px) {
+	.lp-staticslider .staticslider-caption-text,
+	.seriousslider.seriousslider-theme .seriousslider-caption-text {
+		font-size: 2.7em;
+	}
+	a[class^="staticslider-button"],
+	.seriousslider.seriousslider-theme .seriousslider-caption-buttons a {
+		font-size: 0.8em;
+	}
+}
 
 @media (max-width: 640px) {
 
 	#cryout_ajax_more_trigger {
 		width: 100%;
 	}
-
+}
+@media (max-width: 950px) {
+	.lp-staticslider .staticslider-caption-text,
+	.seriousslider.seriousslider-theme .seriousslider-caption-text {
+		font-size: 2.3em;
+	}
+}
+@media (max-width: 800px) {
+	a[class^="staticslider-button"],
+.seriousslider.seriousslider-theme .seriousslider-caption-buttons a {
+	font-size: 0.75em;
+	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 750px) {
+	.lp-staticslider .staticslider-caption-text,
+	.seriousslider.seriousslider-theme .seriousslider-caption-text {
+		font-size: 2em;
+	}
+	a[class^="staticslider-button"],
+.seriousslider.seriousslider-theme .seriousslider-caption-buttons a {
+	padding: 0.8em 1.5em;
+	}
+	a[class^="staticslider-button"]{
+		margin-right:3% !important;
+	}
+}
+
+@media (max-width: 640px) {
 
 	.lp-staticslider .staticslider-caption,
 	.seriousslider.seriousslider-theme .seriousslider-caption {
 		font-size: 0.8em;
+	}
+	a[class^="staticslider-button"],
+.seriousslider.seriousslider-theme .seriousslider-caption-buttons a {
+	font-size: 0.7em;
+	padding: 0.8em 1.5em;
 	}
 
 	.lp-staticslider .staticslider-caption-title,
@@ -5952,7 +6004,7 @@ body.mobile .main {min-height:0;}
 
 	.lp-staticslider .staticslider-caption-text,
 	.seriousslider.seriousslider-theme .seriousslider-caption-text {
-		font-size: 1.25em;
+		font-size: 1.8em;
 	}
 
 	.lp-blocks.lp-blocks-rows-4 .lp-block,
@@ -5969,6 +6021,19 @@ body.mobile .main {min-height:0;}
 		width: 100%;
 		margin-right: 0;
 		margin-bottom: 2em;
+	}
+}
+@media (max-width: 500px) {
+	.lp-staticslider .staticslider-caption-text,
+	.seriousslider.seriousslider-theme .seriousslider-caption-text {
+		font-size: 1.4em;
+	}
+	a[class^="staticslider-button"],
+	.seriousslider.seriousslider-theme .seriousslider-caption-buttons a {
+		padding: 0.8em 1em;
+	}
+	a[class^="staticslider-button"]{
+		margin-right:0 !important;
 	}
 }
 
