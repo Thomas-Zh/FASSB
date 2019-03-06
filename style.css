@@ -2334,7 +2334,6 @@ body .main .wp-caption > a {
 	left: 25%;
 	right: 15%;
 	top: 40%;
-
 	bottom: auto;
 	margin: 3%;
 	max-width: 1000px;
@@ -2349,7 +2348,7 @@ body .main .wp-caption > a {
 	font-family: 'Alegreya Sans', sans-serif;  
 	position: relative;
 	margin: 0;
-	font-size: 5em;
+	font-size: 4em;
 	letter-spacing: 3px;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
 	color: #FFF;
@@ -5929,6 +5928,12 @@ body.mobile .main {min-height:0;}
 	}
 
 }*/
+@media (max-width: 1750px) {
+	.lp-staticslider .staticslider-caption-text,
+	.seriousslider.seriousslider-theme .seriousslider-caption-text {
+		font-size: 4.5em;
+	}
+}
 @media (max-width: 1700px) {
 	.lp-staticslider .staticslider-caption-text,
 	.seriousslider.seriousslider-theme .seriousslider-caption-text {
@@ -5939,6 +5944,9 @@ body.mobile .main {min-height:0;}
 	.lp-staticslider .staticslider-caption-text,
 	.seriousslider.seriousslider-theme .seriousslider-caption-text {
 		font-size: 3.2em;
+	}
+	a[class^="staticslider-button"]{
+		margin-right:15% !important;
 	}
 }
 @media (max-width: 1140px) {
