@@ -17,8 +17,8 @@ get_header(); ?>
 	<?php cryout_before_content_hook(); ?>
 
 	 <?php while ( have_posts() ) : the_post(); ?>
-		<article id="post-<?php the_ID(); ?>" <?php post_class( 'pad-container' ); ?>>
-			<header>
+		<article id="post-<?php the_ID(); ?>" <?php post_class( 'pad-container' ); ?>style="padding: 0;border-top: 0;">
+			<header style="background-image:url('http://142.144.0.11/wp-content/uploads/2019/03/Banner-Head-4.png');">
 				<?php cryout_breadcrumbs_hook(); ?>
 				<?php $fluida_heading_tag = ( is_front_page() ) ? 'h2' : 'h1';
 				 the_title( '<' . $fluida_heading_tag . ' class="entry-title" ' . cryout_schema_microdata( 'entry-title', 0 ) . '>', '</' . $fluida_heading_tag . '>' ); ?>
@@ -40,27 +40,27 @@ Lead Employment Ontario’s digital transformation by developing people-centered
 
 <div class="who-we-are-icon">
 <figure><img title="" src="http://142.144.0.11/wp-content/uploads/2019/03/WWA-icon-1.png" alt="">
-
-Financial and program reporting, planning, and analysis</figure>
+<p></p>
+<p>Financial and program reporting, planning, and analysis</p></figure>
 <figure><img title="" src="http://142.144.0.11/wp-content/uploads/2019/03/WWA-icon-2.png" alt="">
-
-Financial management and accountability</figure>
+<p></p>
+<p>Financial management and accountability</p></figure>
 <figure><img title="" src="http://142.144.0.11/wp-content/uploads/2019/03/WWA-icon-3.png" alt="">
-
-Digital transformation and service design</figure>
+<p></p>
+<p>Digital transformation and service design</p></figure>
 <figure><img title="" src="http://142.144.0.11/wp-content/uploads/2019/03/WWA-icon-4.png" alt="">
-
-Information management and business analytics</figure>
+<p></p>
+<p>Information management and business analytics<p></figure>
 <figure><img title="" src="http://142.144.0.11/wp-content/uploads/2019/03/WWA-icon-5.png" alt="">
-
-Business systems management and support</figure>
+<p></p>
+<p>Business systems management and support</p></figure>
 </div>
 </section>
 <section class="text-area-2">
 <div><img class="top-half-lightbulb" src="http://142.144.0.11/wp-content/uploads/2019/03/logo-top-half.png"></div>
 <div class="text-area-2-caption">
 <h2 class="who-we-are-headers">About us</h2>
-The Finance, Analysis and Systems Support Branch (FASSB) is a key branch which supports the delivery of Employment Ontario (EO) programs and services in the Employment and Training Division (ETD) of the Ministry of Training, Colleges and Universities (MTCU). FASSB ensures that systems, financial management processes, and accountability tools and methodologies are up-to-date, integrated, and relevant for program and service delivery. FASSB works to provide program data and analysis support for digitally-driven and evidence-based decision making to meet the EO vision. For more information about the Employment and Training Division, please visit <u><a href="https://intra.ontario.ca/tcu-etd#!">InsideOps</a></u>
+<p>The Finance, Analysis and Systems Support Branch (FASSB) is a key branch which supports the delivery of Employment Ontario (EO) programs and services in the Employment and Training Division (ETD) of the Ministry of Training, Colleges and Universities (MTCU). FASSB ensures that systems, financial management processes, and accountability tools and methodologies are up-to-date, integrated, and relevant for program and service delivery. FASSB works to provide program data and analysis support for digitally-driven and evidence-based decision making to meet the EO vision. For more information about the Employment and Training Division, please visit <u><a href="https://intra.ontario.ca/tcu-etd#!">InsideOps</a></u></p>
 
 </div>
 </section>
@@ -68,8 +68,8 @@ The Finance, Analysis and Systems Support Branch (FASSB) is a key branch which s
 <div><img class="bottom-half-lightbulb" src="http://142.144.0.11/wp-content/uploads/2019/03/logo-bottom-half.png"></div>
 <div class="text-area-3-caption">
 <h2 class="who-we-are-headers">Who we serve</h2>
-FASSB works in partnerships across the branch, division and ministry with key internal and external stakeholders in support of a service design and user-centric methodology for information sharing, process and practice establishment, and solution design and implementation. Key partnership activities for FASSB include leading ETD responses to corporate reporting and management exercises, working in partnership with a third-party network of system users for program delivery, building a community of controllership practice, and collaborating with the I&amp;IT cluster for ETD systems planning needs.
-
+<p>FASSB works in partnerships across the branch, division and ministry with key internal and external stakeholders in support of a service design and user-centric methodology for information sharing, process and practice establishment, and solution design and implementation. Key partnership activities for FASSB include leading ETD responses to corporate reporting and management exercises, working in partnership with a third-party network of system users for program delivery, building a community of controllership practice, and collaborating with the I&amp;IT cluster for ETD systems planning needs.
+</p>
 </div>
 </section>
 
