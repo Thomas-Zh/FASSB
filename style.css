@@ -89,7 +89,7 @@ To safely make customizations to the theme:
 	
 	# Who we are page
 
-	# DBU Page
+	#.units Page
 
 
 /*--------------------------------------------------------------
@@ -6380,35 +6380,53 @@ div.hard-separator {
 
 }
 
-div.dbu-description-text {
+div.units-description-text {
 	padding-right: 8em;
 }
 
-section.dbu-top-content {
+section.units-top-content {
 	margin-top: 2em;
 	display: flex;
 	flex-direction:row;
-    justify-content: center;
 
 }
-section.dbu-top-content,section.dbu-bottom-content{
+div.units-image>img {
+	max-width: 100%;
+}
+section.units-top-content,section.units-bottom-content{
 	padding-left: 10em;
 	padding-right: 10em;
+	padding-top:1em;
 	background-color:#f1f1f1;
 }
 @media(max-width: 980px){
-	section.dbu-top-content {
+	section.units-top-content {
 		flex-direction:column;
 	}
-	div.dbu-description-text {
+	div.units-description-text {
 	    padding-right: 2em;
 	}
-	section.dbu-top-content,section.dbu-bottom-content{
+	section.units-top-content,section.units-bottom-content{
 		padding-left: 10vw;
 		padding-right: 5vw;
 	}
 
 }
+@media(min-width: 1400px){
+	section.units-top-content,section.units-bottom-content{
+		font-size: 1.1em;
+	}
+}
+@media(min-width: 1600px){
+	section.units-top-content,section.units-bottom-content{
+		font-size: 1.2em;
+	}
 
+}
+@media(min-width: 1800px){
+	section.units-top-content,section.units-bottom-content{
+		font-size: 1.3em;
+	}
+}
 
 /* FIN! */
