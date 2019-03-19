@@ -62,7 +62,44 @@ get_header(); ?>
 					</ul>
 				</section>
 
-			</div>
+				<div class="units-teams">
+
+					<h5 style ="padding-right: 2em;"> Teams</h5>
+
+					<section class="units-teams-content">
+
+						<div class ="units-BSCM">
+
+							<h6> Business System Change Management</h6> 
+
+							<p>Manager: Kaye Lawrence-Haye</p>
+
+							<div class="hard-separator"></div>
+
+							<p>The Business System Change Management unit provides the leadership and expertise in the digital transformation and service design to ensure business needs and user needs are met through the planning, development and implementation of digital solutions for the employment and training programs and services in Ontario.</p>
+							<p>The unit manages internal (including FASSB) and external stakeholder groups, taking a human centered design approach to recommend opportunities to expand and enhance service delivery using emerging technology and new digital solutions.</p>
+							<p>BSCM also leads the user acceptance testing process and the implementation of system changes, working closely with the I&IT cluster partners to ensure that there is limited disruption to programs and services to support the roll-out of the system changes.</p>
+
+						</div>
+
+						<div class="units-BSSA">
+
+							<h6> Business Systems Support Alignment</h6>
+
+							<p>Manager: Tricia Dorman</p>
+
+							<div class="hard-separator"></div>
+
+							<p>The Business System and Support Alignment unit  provides support in three areas: Training and Communications, Production issues, and Service desk </p>
+							<p>The units leads the development of communication and training products for the suite  of integrated business systems that support the delivery of employment and training programs and services across the province.  
+							The unit ensures that issues related to our business systems are prioritized and escalated to the cluster for resolution.  The unit also manages the monthly production patch to resolve system issues.</p>
+							<p>BSSA manages the service desk function which processes over 5000 tickets annually and provides support to the entire division (just under 1,000 users) as well as support to over 5,000 external users </p>
+
+						</div>
+
+					</section>
+
+				</div>
 		</article>
 
 		<?php

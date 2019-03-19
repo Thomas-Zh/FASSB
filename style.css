@@ -90,6 +90,8 @@ To safely make customizations to the theme:
 	# Who we are page
 
 	#.units Page
+	#.projects Page
+	#.systems Page
 
 
 /*--------------------------------------------------------------
@@ -6365,7 +6367,7 @@ section#comments{
 
 
 /*--------------------------------------------------------------
-	# Digital Business Unit Page
+	# Unit Page
 -------------------------------------------------------------- */
 
 div.hard-separator {
@@ -6391,14 +6393,42 @@ section.units-top-content {
 
 }
 div.units-image>img {
+	
 	max-width: 100%;
+	
 }
-section.units-top-content,section.units-bottom-content{
+
+
+section.units-top-content,section.units-bottom-content, div.units-teams{
 	padding-left: 10em;
 	padding-right: 10em;
 	padding-top:1em;
 	background-color:#f1f1f1;
 }
+
+div.units-teams {
+	padding-top:2em;
+	padding-bottom: 2em;
+	background-color: #E5E5E5;
+}
+
+section.units-teams-content {
+	margin-top: 2em;
+	display: flex;
+	flex-direction:row;
+}
+
+div.units-BSCM {    
+	padding-right: 3em;
+	border-right: 0.2em;
+	border-color: #C8C8C8;
+	border-style: solid;
+}
+
+div.units-BSSA {
+	padding-left:3em;
+}
+
 @media(max-width: 980px){
 	section.units-top-content {
 		flex-direction:column;
@@ -6427,6 +6457,46 @@ section.units-top-content,section.units-bottom-content{
 	section.units-top-content,section.units-bottom-content{
 		font-size: 1.3em;
 	}
+}
+
+/*--------------------------------------------------------------
+	# Systems
+--------------------------------------------------------------*/
+
+
+.systems-block {
+	padding-left: 10em;
+	padding-right: 12em;
+	padding-top:2em;
+	padding-bottom:2em;
+}
+
+.systems-block:nth-child(odd) {
+	background: #f1f1f1;
+}
+
+.systems-block:nth-child(even){
+	background: #DFDFDF
+}
+
+/*--------------------------------------------------------------
+	# Projects
+--------------------------------------------------------------*/
+div.project-page{
+	flex-grow: 1;
+}
+div.highlight-nav{
+	overflow: hidden;
+	overflow-y:scroll;
+	flex-grow: 1;
+	position:fixed;
+	top:120px;
+	right:0;
+}
+div.list-title.active{
+	border-left:10px;
+	border-color: black;
+	border-style: solid;
 }
 
 /* FIN! */
