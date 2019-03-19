@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: What
+ * Template Name: systems
   *
  * A custom page template for showing posts on a chosen category.
  *
@@ -28,17 +28,18 @@ get_header(); ?>
 			</header>
 
 			<div class="entry-content" style="display: flex; flex-direction: row;">
-				<div class="project-page">
+				<div class="systems_page">
 				<?php
-			$projects_posts= new WP_Query(array('post_type'=>'projects','posts_per_page'=>-1));?>
+			$systems_posts= new WP_Query(array('post_type'=>'systems','posts_per_page'=>-1));?>
 			<?php $sid=0;?>
-			<?php while ( $projects_posts->have_posts() ) : $projects_posts->the_post(); ?>
-					<section id="project-wrap-<?php echo $sid?>">
+			<?php while ( $systems_posts->have_posts() ) : $systems_posts->the_post(); ?>
+					<section class="systems-block" id="systems_wrap-<?php echo $sid?>">
 						<?php $sid+=1;?>
-				<div class="project-title">
+				<h5 class="systems_title">
 					<?php the_title(); ?> 
-				</div>
-				<div class="project-content">
+				</h5>
+				<div class="hard-separator"></div>
+				<div class="systems_content">
 					<?php the_content(); ?>
 				</div>
 			</section>
@@ -46,13 +47,12 @@ get_header(); ?>
 			</div>
 			<div class="highlight-nav">
 				<?php $sid=0;?>
-				<?php while ( $projects_posts->have_posts() ) : $projects_posts->the_post(); ?>
+				<?php while ( $systems_posts->have_posts() ) : $systems_posts->the_post(); ?>
 					<div class="list-title active" id="<?php echo $sid?>">	
-					<a href="#project-wrap-<?php echo $sid?>"><?php the_title(); ?></a>
+					<a href="#systems_wrap-<?php echo $sid?>"><?php the_title(); ?></a>
 					<?php $sid+=1;?>
 				</div>
 				<?php endwhile; ?>
-				<button>Return the vertical position of the scrollbar</button>
 			</div>
 				<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'fluida' ), 'after' => '</div>' ) ); ?>
 			</div>
