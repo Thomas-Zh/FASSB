@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name:"units
+ * Template Name: What
   *
  * A custom page template for showing posts on a chosen category.
  *
@@ -10,7 +10,6 @@
  * @package Fluida
  */
 
-
 get_header(); ?>
 
 <div id="container" class="<?php echo fluida_get_layout_class(); ?>">
@@ -18,8 +17,8 @@ get_header(); ?>
 	<?php cryout_before_content_hook(); ?>
 
 	 <?php while ( have_posts() ) : the_post(); ?>
-		<article id="post-<?php the_ID(); ?>" <?php post_class( 'pad-container' ); ?>style="padding: 0;border-top: 0;">
-			<header style="background-image:url('http://142.144.0.11/wp-content/uploads/2019/03/Banner-Head-4.png');">
+		<article id="post-<?php the_ID(); ?>" <?php post_class( 'pad-container' ); ?>>
+			<header>
 				<?php cryout_breadcrumbs_hook(); ?>
 				<?php $fluida_heading_tag = ( is_front_page() ) ? 'h2' : 'h1';
 				 the_title( '<' . $fluida_heading_tag . ' class="entry-title" ' . cryout_schema_microdata( 'entry-title', 0 ) . '>', '</' . $fluida_heading_tag . '>' ); ?>
@@ -27,41 +26,16 @@ get_header(); ?>
 					<?php edit_post_link( __( 'Edit', 'fluida' ) . '<em class="screen-reader-text">"' . get_the_title() . '"</em>', '<span class="edit-link"><i class="icon-edit"></i> ', '</span>' ); ?>
 				</span>
 			</header>
+
 			<div class="entry-content">
+				<?php
+			$projects_posts= new WP_Query(array('post_type'=>'projects','posts_per_page'=>-1));?>
+			<?php while ( $projects_posts->have_posts() ) : $projects_posts->the_post(); ?>
+				<?php the_title(); ?> 
+				<?php the_content(); ?>
+			<?php endwhile; ?>
 
-				<section class="units-top-content">
-
-					<div class="units-description">
-						<h5 style ="padding-right: 2em;">Digital Business Unit</h5>
-						<p> Senior Manager: Peter O'Keefe</p>
-						<div class="hard-separator"></div>
-
-						<div class="units-description-text">
-							<h6> Purpose:</h6>
-							<p>To analyze and disseminate timely, reliable and accurate EO program and financial data and tools for sound financial management and insight discovery</p>
-						</div>
-					</div>
-					<div class="units-image">
-						<img src="http://142.144.0.11/wp-content/uploads/2019/03/DBU-1.png" style="width:596px;">
-					</div>
-
-				</section>
-
-				<section class ="units-bottom-content">
-
-					<h6>Areas of focus:</h6>
-					<ul>
-
-						<li>Lead the long-term planning and project management for the division’s I&IT systems</li>
-						<li>Co-design digital solutions with our users in partnership with the I&IT cluster</li>
-						<li>Provide a holistic view of EO programs and systems that supports the business in making strategic decisions</li>
-						<li>Lead the discovery, design and user acceptance testing for all the applications in the EOIS platform</li>
-						<li>Lead the support, training and communications for all the applications in the EOIS platform</li>
-
-
-					</ul>
-				</section>
-
+				<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'fluida' ), 'after' => '</div>' ) ); ?>
 			</div>
 		</article>
 
