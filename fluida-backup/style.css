@@ -6492,27 +6492,29 @@ div.project-page{
 }
 div.highlight-nav{
 	overflow: hidden;
-	overflow-y:scroll;
 	left:0;
         position:absolute;
-	margin-top: 2.5em;
-	padding-right: 2em;
+	background: #EAEAEA;
 }
 div.highlight-nav.sticky{
 	overflow: hidden;
-	overflow-y:scroll;
 	position:fixed;
 	top:80px;
 	left:0;
 }
 div.list-title.active{
-        padding:0;
+        padding-top: .5em;
+	padding-left: 0em;
 	border-left:10px;
 	border-color: #FBA643;
 	border-style: solid;
+	width: 8em;
+	background-color: #FFE2C0;
 }
 div.list-title{
         padding-left:10px;
+	width: 8em;
+	padding-top: .5em;
 }
 @media(max-width: 1020px){
 	div.highlight-nav.sticky{
