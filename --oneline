@@ -1,0 +1,326 @@
+[33mcommit f4581aac97e04b09227f00431364bbd0fbe61e27[m[33m ([m[1;36mHEAD -> [m[1;32mlocal[m[33m)[m
+Merge: 0a7aef9 bf111e2
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Wed Mar 20 15:32:26 2019 -0400
+
+    Merge branch 'master' into local
+    
+    update local stylesheet
+
+[33mcommit bf111e27723ec0ec468a0c908778968d8950a939[m[33m ([m[1;33mtag: v1.0[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mnew-backup[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Ainley <43100685+AinleyP@users.noreply.github.com>
+Date:   Wed Mar 20 15:17:59 2019 -0400
+
+    Add files via upload
+
+[33mcommit 0a7aef90513e03f88ed1fafd53facb82055bc9f4[m
+Merge: c3f9ccc 718df33
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Wed Mar 20 15:06:20 2019 -0400
+
+    Merge branch 'master' into local
+    
+    start over
+
+[33mcommit c3f9ccce269a707ddfb9998d122f796ed8c04e08[m
+Merge: 291b12e 5487c49
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Wed Mar 20 15:05:34 2019 -0400
+
+    Merge branch 'local' of https://github.com/Thomas-Zh/FASSB into local
+    
+    merge
+
+[33mcommit 5487c49c082ce7a4e8bb18602f6aac98bf7d7b66[m[33m ([m[1;31morigin/local[m[33m)[m
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Wed Mar 20 12:42:00 2019 -0400
+
+    new start
+
+[33mcommit 718df33da3d9591989b3d0939499528c50bafc46[m
+Merge: 291b12e 168e117
+Author: Thomas-Zh <33919678+Thomas-Zh@users.noreply.github.com>
+Date:   Wed Mar 20 12:40:49 2019 -0400
+
+    Merge pull request #12 from Thomas-Zh/new-backup
+    
+    New backup
+
+[33mcommit 168e11794af40ac590c870ccea790638c09ad370[m[33m ([m[1;31morigin/new-backup[m[33m)[m
+Merge: 57917c2 291b12e
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Wed Mar 20 12:40:08 2019 -0400
+
+    Merge branch 'master' into new-backup
+    
+    new start
+
+[33mcommit 291b12e64dfc542ebb6d1a8fe74263c76f18bd76[m
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Wed Mar 20 12:38:20 2019 -0400
+
+    new start
+
+[33mcommit edd976142f2ce4e5d83e293d0afa65ca5a435d3d[m
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Wed Mar 20 12:32:00 2019 -0400
+
+    so much work
+
+[33mcommit 57917c2673401a507ccfa2d1cf82eb9d0eb5e3c7[m
+Merge: 6ff4644 f525274
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Wed Mar 20 12:22:19 2019 -0400
+
+    Merge branch 'master' into new-backup
+    
+    clean up
+
+[33mcommit f5252746f13d8ea5ae25abff9dd9855f035cdece[m
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Wed Mar 20 12:20:04 2019 -0400
+
+    ss
+
+[33mcommit fb8a60d822feddc1a46c16131fb2f05ea0c843ff[m
+Author: Thomas-Zh <33919678+Thomas-Zh@users.noreply.github.com>
+Date:   Wed Mar 20 11:24:09 2019 -0400
+
+    Add files via upload
+
+[33mcommit 35f8c55d7df5d34e9b5a3c770ee50c416d2cb15e[m
+Author: Thomas-Zh <33919678+Thomas-Zh@users.noreply.github.com>
+Date:   Wed Mar 20 11:22:10 2019 -0400
+
+    This is the backup branch of FASSB fluida theme (#11)
+
+[33mcommit 6ff464487253818364782c7c401cfdf592d2a308[m
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Wed Mar 20 11:15:55 2019 -0400
+
+    This is the backup branch of FASSB fluida theme
+
+[33mcommit 0c7b6ba8713913524a05274d009ab4ef14aff370[m
+Author: Thomas-Zh <33919678+Thomas-Zh@users.noreply.github.com>
+Date:   Wed Mar 20 11:02:08 2019 -0400
+
+    Add files via upload
+
+[33mcommit d01a1b30e069cf7454d8d10a3534410462649f61[m
+Author: Thomas-Zh <33919678+Thomas-Zh@users.noreply.github.com>
+Date:   Wed Mar 20 10:49:13 2019 -0400
+
+    Add files via upload
+
+[33mcommit 63bc85da035006de6fb65af1d8a5189f3016c139[m
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Tue Mar 19 17:44:27 2019 -0400
+
+    new start
+
+[33mcommit 04f08484a636964b939ba112d99891f546bea33a[m
+Merge: 77b7d1d fa98d1d
+Author: Thomas-Zh <33919678+Thomas-Zh@users.noreply.github.com>
+Date:   Tue Mar 19 16:52:03 2019 -0400
+
+    Merge pull request #10 from Thomas-Zh/local
+    
+    new commit
+
+[33mcommit 77b7d1dbe02b6cb2be77ad15e45a9b54534e5747[m
+Author: Thomas-Zh <33919678+Thomas-Zh@users.noreply.github.com>
+Date:   Tue Mar 19 16:48:55 2019 -0400
+
+    Add files via upload
+
+[33mcommit fa98d1d421c88bd38efd33768557715e3cdd4e3b[m
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Tue Mar 19 16:44:35 2019 -0400
+
+    new commit
+
+[33mcommit 58a11c7da5c35bad2c1e2d7bf05441ae11596356[m
+Merge: 34c1440 a429800
+Author: Thomas-Zh <33919678+Thomas-Zh@users.noreply.github.com>
+Date:   Wed Mar 13 11:51:09 2019 -0400
+
+    Merge pull request #9 from Thomas-Zh/local
+    
+    all units template css
+
+[33mcommit a429800d142eab5affdcd6de6d7cc03d1fb07dd8[m
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Wed Mar 13 11:49:03 2019 -0400
+
+    all units template css
+
+[33mcommit 34c144042889103c86029f17399616ad6e4ce1dc[m
+Merge: 0838920 7fb612b
+Author: Thomas-Zh <33919678+Thomas-Zh@users.noreply.github.com>
+Date:   Wed Mar 13 11:48:25 2019 -0400
+
+    Merge pull request #8 from Thomas-Zh/local
+    
+    new template folder
+
+[33mcommit 7fb612ba476dc27ec55fd66c618fe5a3153ee725[m
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Wed Mar 13 11:46:50 2019 -0400
+
+    new template folder
+
+[33mcommit 0838920afbedcbe5f6d8b94910d0027cec051705[m
+Merge: 4fb10be 9b2e60b
+Author: Thomas-Zh <33919678+Thomas-Zh@users.noreply.github.com>
+Date:   Tue Mar 12 15:58:34 2019 -0400
+
+    Merge pull request #7 from Thomas-Zh/local
+    
+    DBU css
+
+[33mcommit 9b2e60b6df51800a2148108116f54077556553a4[m
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Tue Mar 12 15:53:05 2019 -0400
+
+    DBU css
+
+[33mcommit 4fb10be0b19b18e6284c8894151872925f0cca55[m
+Merge: da094ce d692042
+Author: Thomas-Zh <33919678+Thomas-Zh@users.noreply.github.com>
+Date:   Tue Mar 12 15:48:43 2019 -0400
+
+    Merge pull request #6 from Thomas-Zh/local
+    
+    template file for DBU page
+
+[33mcommit d6920420d8e23c0c8721164327b5043260202c17[m
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Tue Mar 12 15:47:41 2019 -0400
+
+    template file for DBU page
+
+[33mcommit da094ce2ddd30add03180dfdb98d48b894e84107[m
+Author: Thomas-Zh <33919678+Thomas-Zh@users.noreply.github.com>
+Date:   Mon Mar 11 11:44:48 2019 -0400
+
+    Add files via upload
+    
+    new who we are page template
+
+[33mcommit 2bd467202fcd3445b07629bfa3ca1f049124eaec[m
+Merge: 461fe2f dabb37b
+Author: Thomas-Zh <33919678+Thomas-Zh@users.noreply.github.com>
+Date:   Mon Mar 11 10:52:00 2019 -0400
+
+    Merge pull request #5 from Thomas-Zh/local
+    
+    templates for projects and who we are page
+
+[33mcommit dabb37bbd6b93acad85bf63398d56d17f8871a6e[m
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Mon Mar 11 10:50:57 2019 -0400
+
+    templates for projects and who we are page
+
+[33mcommit 461fe2f6d16fb36e532b6f3bee0f621c2519a8dd[m
+Merge: f15b48b 6156bc9
+Author: Thomas-Zh <33919678+Thomas-Zh@users.noreply.github.com>
+Date:   Wed Mar 6 13:02:01 2019 -0500
+
+    Merge pull request #4 from Thomas-Zh/local
+    
+    final version for @media(max width) of landing page banner
+
+[33mcommit 6156bc98373e3c64ef57536bc452ca15542184da[m
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Wed Mar 6 12:57:40 2019 -0500
+
+    final version for @media(max width) of landing page banner
+
+[33mcommit f15b48bdfeeccb411bfe1720f8d7af1077efd2ae[m
+Merge: 5f356ef 8539b47
+Author: Thomas-Zh <33919678+Thomas-Zh@users.noreply.github.com>
+Date:   Wed Mar 6 12:42:59 2019 -0500
+
+    Merge pull request #3 from Thomas-Zh/local
+    
+    add different @media(max width) for landing page banner
+
+[33mcommit 8539b47df07857300e20c1cad6dd0ccdada9355f[m
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Wed Mar 6 12:41:34 2019 -0500
+
+    add different @media(max width) for landing page banner
+
+[33mcommit 5f356ef2f14cc91503948432ae7cb3f144c3e6de[m
+Author: Ainley <43100685+AinleyP@users.noreply.github.com>
+Date:   Wed Mar 6 11:14:06 2019 -0500
+
+    Delete who-are-we.html
+
+[33mcommit 51da320249caa77e8974f46839a01368f0a9ce00[m
+Author: Ainley <43100685+AinleyP@users.noreply.github.com>
+Date:   Wed Mar 6 11:13:46 2019 -0500
+
+    Add files via upload
+
+[33mcommit bdb051e9a5b760a381e701cefd0c3b73fdfd47ee[m
+Author: Ainley <43100685+AinleyP@users.noreply.github.com>
+Date:   Wed Mar 6 11:10:28 2019 -0500
+
+    Add files via upload
+
+[33mcommit df6163d2f298d5424ec7b57497035310023fff27[m
+Author: Ainley <43100685+AinleyP@users.noreply.github.com>
+Date:   Wed Mar 6 10:44:47 2019 -0500
+
+    Add files via upload
+
+[33mcommit a734b57c0dabe6dae9ce523434a1c221ae60f13d[m
+Merge: 1e92bc0 c2b5b80
+Author: Thomas-Zh <33919678+Thomas-Zh@users.noreply.github.com>
+Date:   Fri Mar 1 11:35:33 2019 -0500
+
+    Merge pull request #2 from Thomas-Zh/local
+    
+    Local
+
+[33mcommit c2b5b800ee84c7b7e121e079bfc698ad55471a7e[m
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Fri Mar 1 11:33:15 2019 -0500
+
+    who-are-we.html
+
+[33mcommit 3a5f161bb64b7a01dc5b797334fe3262d76b11cb[m
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Fri Mar 1 11:29:49 2019 -0500
+
+    add #Who are we Page at the end
+
+[33mcommit 1e92bc0885fe44874fc9baba8106453ec9b9b2a4[m
+Merge: 4dae688 265f8ba
+Author: Thomas-Zh <33919678+Thomas-Zh@users.noreply.github.com>
+Date:   Mon Feb 25 12:42:10 2019 -0500
+
+    Merge pull request #1 from Thomas-Zh/local
+    
+    stylesheet local machine
+
+[33mcommit 265f8babc049b7c8615448e38fa65db566216461[m
+Author: Thomas-Zh <thomaszh1998@gmail.com>
+Date:   Mon Feb 25 12:38:39 2019 -0500
+
+    stylesheet local machine
+
+[33mcommit 4dae6882399b4ea52c99219dfd340b54d4dee3a8[m
+Author: Ainley <43100685+AinleyP@users.noreply.github.com>
+Date:   Mon Feb 25 12:10:31 2019 -0500
+
+    Add files via upload
+
+[33mcommit 1e8d275f1c864564539c96358c7c0fd141a9e762[m
+Author: Thomas Zhang <thomaszh1998@gmail.com>
+Date:   Mon Feb 25 11:57:26 2019 -0500
+
+    stylesheet for FASSB website
+    :q!

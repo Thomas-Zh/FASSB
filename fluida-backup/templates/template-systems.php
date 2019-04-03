@@ -40,6 +40,7 @@ get_header(); ?>
 				</h5>
 				<div class="hard-separator"></div>
 				<div class="systems-content">
+				
 					<?php the_content(); ?>
 				</div>
 			</section>
